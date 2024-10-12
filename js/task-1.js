@@ -20,7 +20,7 @@ const makeTransaction = (quantity, pricePerDroid, customerCredits) => {
 }
 
 $('body').on('click', '#task-1', function() {
-  alert(makeTransaction());
+  alert(makeTransaction(5, 500, 7000));
 });
 
 console.log(makeTransaction(5, 3000, 23000)); // "You ordered 5 droids worth 15000 credits!"
